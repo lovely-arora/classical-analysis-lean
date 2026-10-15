@@ -1,2 +1,3 @@
 import ClassicalAnalysis.Carleman
+import ClassicalAnalysis.Hardy
 import ClassicalAnalysis.SeriesTests
