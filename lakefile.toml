@@ -1,0 +1,16 @@
+name = "ClassicalAnalysis"
+version = "0.1.0"
+defaultTargets = ["ClassicalAnalysis"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "9944fe2973b8dc0b86949101ed98232c07cd54a0"
+
+[[lean_lib]]
+name = "ClassicalAnalysis"
